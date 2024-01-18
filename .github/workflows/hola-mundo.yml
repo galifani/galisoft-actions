@@ -1,0 +1,12 @@
+name: hola mundo
+on: [push]
+jobs: Hola mundo
+ steps:
+  - name: Checkout
+    id: checkout
+    uses: actions/checkout@v4
+    with: holamundo.py
+  - name: Execution
+    id: python
+    run: python holamundo.py
+    
